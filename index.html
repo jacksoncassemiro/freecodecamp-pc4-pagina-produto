@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página incial para produto</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <img src="https://drive.google.com/thumbnail?id=13dEWPwugfmDplnqKi4INMWDZncD3ELbY" alt="Logo da ferramenta central" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#caracteristicas" class="nav-link">Características</a>
+                </li>
+                <li>
+                    <a href="#funcionamento" class="nav-link">Funcionamento</a>
+                </li>
+                <li>
+                    <a href="#preco" class="nav-link">Preço</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cadastro">
+        <h2>Conheça nossa ferramenta</h2>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Insira seu email" required>
+            <input id="submit" type="submit" value="COM CERTEZA">
+        </form>
+    </section>
+    <main>
+        <div id="caracteristicas">
+            <article class="caracteristicas__item">
+                <h2>Personalização Intuitiva</h2>
+                <p>Os clientes podem personalizar suas camisas de forma intuitiva, escolhendo cores, estilos e tamanhos com facilidade.</p>
+                <i class="fas fa-paint-brush"></i>
+            </article>
+            <article class="caracteristicas__item">
+                <h2>Rastreamento de Pedidos em Tempo Real</h2>
+                <p>Os clientes têm acesso ao rastreamento em tempo real de seus pedidos, proporcionando transparência e informações detalhadas sobre o status da produção e entrega.</p>
+                <i class="fas fa-map-marked-alt"></i>
+            </article>
+            <article class="caracteristicas__item">
+                <h2>Pagamento Seguro e Confiável</h2>
+                <p>O programa oferece um sistema de pagamento seguro, garantindo a confidencialidade dos dados do cliente e facilitando transações sem preocupações.</p>
+                <i class="fas fa-lock"></i>
+            </article>
+        </div>
+        <div id="funcionamento">
+            <iframe id="video" src="https://www.youtube.com/embed/u78ixIqabK0?si=S_h3ZaKuS45f8Hnn"></iframe>
+        </div>
+        <div id="preco">
+            <article class="preco__item">
+                <h2>Plano Básico</h2>
+                <strong>$9,99/mês</strong>
+                <p>Ideal para pequenos negócios ou empreendedores individuais.</p>
+                <ul>
+                    <li>Personalização intuitiva de camisas.</li>
+                    <li>Rastreamento de pedidos básico.</li>
+                    <li>Pagamento seguro.</li>
+                </ul>
+                <button type="button">SELECIONA</button>
+            </article>
+            <article class="preco__item">
+                <h2>Plano Empresarial</h2>
+                <strong>$29,99/mês</strong>
+                <p>Perfeito para empresas de médio porte com maior demanda.</p>
+                <ul>
+                    <li>Personalização avançada de camisas.</li>
+                    <li>Rastreamento de pedidos em tempo real.</li>
+                    <li>Integração com sistemas de pagamento externos.</li>
+                </ul>
+                <button type="button">SELECIONA</button>
+            </article>
+            <article class="preco__item">
+                <h2>Plano Premium</h2>
+                <strong>$59,99/mês</strong>
+                <p>Para grandes empresas com necessidades complexas.</p>
+                <ul>
+                    <li>Personalização avançada e exclusiva.</li>
+                    <li>Rastreamento detalhado de pedidos em tempo real.</li>
+                    <li>Suporte prioritário ao cliente.</li>
+                </ul>
+                <button type="button">SELECIONA</button>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <span>Copyright 2024, Central</span>
+    </footer>
+</body>
+</html>
