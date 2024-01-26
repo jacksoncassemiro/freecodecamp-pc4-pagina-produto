@@ -10,29 +10,31 @@
 </head>
 <body>
     <header id="header">
-        <img src="https://drive.google.com/thumbnail?id=13dEWPwugfmDplnqKi4INMWDZncD3ELbY" alt="Logo da ferramenta central" id="header-img">
-        <nav id="nav-bar">
-            <ul>
-                <li>
-                    <a href="#caracteristicas" class="nav-link">Características</a>
-                </li>
-                <li>
-                    <a href="#funcionamento" class="nav-link">Funcionamento</a>
-                </li>
-                <li>
-                    <a href="#preco" class="nav-link">Preço</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="is--position-limit">
+            <img src="https://drive.google.com/thumbnail?id=13dEWPwugfmDplnqKi4INMWDZncD3ELbY" alt="Logo da ferramenta central" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#caracteristicas" class="nav-link">Características</a>
+                    </li>
+                    <li>
+                        <a href="#funcionamento" class="nav-link">Funcionamento</a>
+                    </li>
+                    <li>
+                        <a href="#preco" class="nav-link">Preço</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="cadastro">
+    <section class="cadastro is--position-limit">
         <h2>Conheça nossa ferramenta</h2>
         <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
             <input name="email" id="email" type="email" placeholder="Insira seu email" required>
             <input id="submit" type="submit" value="COM CERTEZA">
         </form>
     </section>
-    <main>
+    <main class="is--position-limit">
         <div id="caracteristicas">
             <article class="caracteristicas__item">
                 <h2>Personalização Intuitiva</h2>
@@ -55,7 +57,7 @@
         </div>
         <div id="preco">
             <article class="preco__item">
-                <h2>Plano Básico</h2>
+                <h2><span>Plano Básico</span></h2>
                 <strong>$9,99/mês</strong>
                 <p>Ideal para pequenos negócios ou empreendedores individuais.</p>
                 <ul>
@@ -66,7 +68,7 @@
                 <button type="button">SELECIONA</button>
             </article>
             <article class="preco__item">
-                <h2>Plano Empresarial</h2>
+                <h2><span>Plano Empresarial</span></h2>
                 <strong>$29,99/mês</strong>
                 <p>Perfeito para empresas de médio porte com maior demanda.</p>
                 <ul>
@@ -77,7 +79,7 @@
                 <button type="button">SELECIONA</button>
             </article>
             <article class="preco__item">
-                <h2>Plano Premium</h2>
+                <h2><span>Plano Premium</span></h2>
                 <strong>$59,99/mês</strong>
                 <p>Para grandes empresas com necessidades complexas.</p>
                 <ul>
@@ -89,7 +91,7 @@
             </article>
         </div>
     </main>
-    <footer>
+    <footer class="is--position-limit">
         <ul>
             <li><a href="#">Privacidade</a></li>
             <li><a href="#">Termos</a></li>
